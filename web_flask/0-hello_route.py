@@ -7,8 +7,8 @@ It starts a Flask web app that listens on 0.0.0.0, port 5000.
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/', strict_slashes=False)
-def hello_hbnb():
+@app.route('/airbnb-onepage/')
+def hello():
     """
     This function responds to the '/' route (homepage) and returns 'Hello HBNB!'.
     """
